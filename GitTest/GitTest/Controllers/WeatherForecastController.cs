@@ -35,21 +35,5 @@ namespace GitTest.Controllers
             })
             .ToArray();
         }
-        [HttpPost]
-        public IEnumerable<WeatherForecast> Post()
-        {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            })
-            .ToArray();
-        }
-        private string  test()
-        {
-            return "ok";
-        }
     }
 }
