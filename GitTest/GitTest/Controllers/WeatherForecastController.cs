@@ -35,6 +35,7 @@ namespace GitTest.Controllers
             })
             .ToArray();
         }
+        [HttpPost]
         public IEnumerable<WeatherForecast> Post()
         {
             var rng = new Random();
