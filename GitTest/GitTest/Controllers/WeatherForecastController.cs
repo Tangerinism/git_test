@@ -60,5 +60,9 @@ namespace GitTest.Controllers
             .ToArray();
         }
         //qianchu
+        private string  test()
+        {
+            return "ok";
+        }
     }
 }
