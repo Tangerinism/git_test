@@ -47,5 +47,9 @@ namespace GitTest.Controllers
             })
             .ToArray();
         }
+        private string  test()
+        {
+            return "ok";
+        }
     }
 }
