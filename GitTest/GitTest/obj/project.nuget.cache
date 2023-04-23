@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Os73z5zK+tepJCsfub/t8ZYHpwc+AXhiDqqIxpaanEB7Qzlb0urpEej1hL0nSinfAnNey49yxNw1S7rYHVFfwA==",
+  "success": true,
+  "projectFilePath": "E:\\test\\GitTest\\GitTest\\GitTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\boveUser39\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.30\\microsoft.netcore.app.host.win-x64.3.1.30.nupkg.sha512"
+  ],
+  "logs": []
+}
